@@ -1,0 +1,14 @@
+body {
+    font-family: "Manrope", sans-serif;
+    color: #FCF9F9;
+    background-color: #1C2225;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}

@@ -74,6 +74,10 @@ button {
   }
 }
 
+.mobile-menu-btn-icon {
+  stroke: #1c2225;
+}
+
 .mobile-menu-address {
   align-self: flex-start;
 }

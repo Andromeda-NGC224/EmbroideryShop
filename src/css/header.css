@@ -41,7 +41,9 @@ button {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 198px;
+  position: relative;
 }
 
 @media screen and (min-width: 768px) {
@@ -56,6 +58,7 @@ button {
   line-height: 0;
   border: none;
   background-color: transparent;
+  z-index: 10;
   position: absolute;
   top: 21px;
   right: 20px;
@@ -126,17 +129,36 @@ button {
 }
 
 .mobile-menu-image {
+  position: absolute;
+  left: 0;
+  bottom: 0;
   width: 100%;
   height: 302px;
-  background: url(../img/mobile-background.png);
+  background: url(../img/header/background-mobmenu.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-menu-image {
+    height: 484px;
+  }
+}
+
+@media (min-resolution: 192dpi) {
+  .mobile-menu-image {
+    background-image: url(../img/header/background-mobmenu@2x.png);
+  }
 }
 
 .header {
   padding-top: 20px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-color: #1c2225;
 }
 
 @media screen and (min-width: 768px) {
@@ -151,8 +173,15 @@ button {
   }
 }
 
+.header.scrolled {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(24, 23, 23, 0.8);
+}
+
 .header .container {
   min-width: 375px;
+  width: 100%;
   height: 52px;
   padding: 0 20px;
   display: flex;

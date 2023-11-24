@@ -239,6 +239,7 @@ button {
   align-items: center;
   color: #fcf9f9;
   font-size: 14px;
+  font-style: normal;
   line-height: 1.43;
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);

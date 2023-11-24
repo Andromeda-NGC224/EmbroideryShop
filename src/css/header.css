@@ -6,12 +6,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Manrope', sans-serif;
-  background-color: #1c2225;
-  color: #fcf9f9;
-}
-
 input,
 textarea,
 button {
@@ -141,26 +135,6 @@ button {
   position: relative;
 }
 
-.container {
-  min-width: 375px;
-  height: 52px;
-  padding: 0 20px;
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    min-width: 768px;
-    padding: 0 32px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .container {
-    min-width: 1280px;
-    padding: 0 100px;
-  }
-}
-
 .header {
   padding-top: 20px;
 }
@@ -178,9 +152,26 @@ button {
 }
 
 .header .container {
+  min-width: 375px;
+  height: 52px;
+  padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .header .container {
+    min-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header .container {
+    min-width: 1280px;
+    padding: 0 100px;
+  }
 }
 
 .header-nav {

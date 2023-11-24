@@ -1,0 +1,117 @@
+body {
+    background-color: #1C2225;
+}
+@media (max-width: 375px) {
+    .container {
+        width: 100%;
+        width: 375px;
+            margin: 0 auto;
+            padding: 0;
+    
+    }
+} 
+@media (min-width: 375px) {
+    .container {
+        width: 375px;
+        margin: 0 auto;
+        
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding-left: 100px;
+            padding-right: 100px;
+    }
+}
+@media (min-width: 1280px) {
+    .container { 
+        width: 1280px;
+
+    }
+}
+.testimonials-title {
+color: #FCF9F9;
+    font-size: 32px;
+    line-height: 1.37;
+    letter-spacing: -0.96px;
+    margin-bottom: 64px;
+}
+@media (min-width: 768px) {
+    .testimonials-title {
+            font-size: 44px;
+            line-height: 1.45;
+            letter-spacing: -1.32px;
+    }
+}
+
+.testimonials-list-title {
+    color: #FCF9F9;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+}
+.testimonials-list-text {
+    color: rgba(252, 249, 249, 0.40);
+        text-align: center;
+        font-size: 14px;
+        line-height: normal;
+}
+@media (min-width: 768px) {
+    .testimonials-list-text {
+            font-size: 16px;
+        }
+}
+.testimonials-list {
+    display: flex;
+    gap: 32px;
+}
+.testimonials-list-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+.testimonials-list-item {
+    position: relative;
+    max-width: 300px;
+    padding: 54px 18px 18px 18px;
+    display: none;
+    flex-direction: column;
+    border-radius: 4px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+}
+
+.testimonials-list-item:first-child {
+    display: flex;
+}
+@media (min-width: 768px) {
+    .testimonials-list-item {
+        display: flex;
+        flex-basis: calc((100%-32px) / 2);
+        max-width: 300px;
+    }
+}
+@media (max-width: 1279px) {
+.testimonials-list-item:last-child {
+    display: none;
+}
+}
+
+@media (min-width: 1280px) {
+    .testimonials-list {
+            gap: 26px;
+            flex-basis: calc((100%-52px) / 3);
+        }
+.testimonials-list-item {
+        display: flex;
+        flex-basis: calc((100%-52px) / 3);
+    }
+        
+}
+@media (min-width: 1440px) {
+    .testimonials-list-item {
+        max-width: 360px;
+    }
+}

@@ -1,0 +1,124 @@
+@media (max-width: 375px) {
+  .container {
+    width: 100%;
+  }
+  
+}
+@media (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+.testimonials-title {
+  color: #fcf9f9;
+  font-size: 32px;
+  line-height: 1.37;
+  letter-spacing: -0.96px;
+  margin-bottom: 64px;
+  margin-left: auto;
+  margin-left: 20px;
+}
+@media (max-width: 375px) {
+.testimonials-title {
+  margin-left: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .testimonials-title {
+    font-size: 44px;
+    line-height: 1.45;
+    letter-spacing: -1.32px;
+    margin-left: 0px;
+  }
+}
+
+.testimonials-list-title {
+  color: #fcf9f9;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 8px;
+}
+.testimonials-list-text {
+  color: rgba(252, 249, 249, 0.4);
+  text-align: center;
+  font-size: 14px;
+  line-height: normal;
+
+}
+@media (min-width: 768px) {
+  .testimonials-list-text {
+    font-size: 16px;
+    height: 176px;
+  }
+  .testimonials-list {
+    display: flex;
+    gap: 32px;
+  }
+}
+
+.testimonials-list-image {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+.testimonials-list-item {
+  margin: 0 auto;
+  position: relative;
+  max-width: 335px;
+  padding: 54px 18px 18px 18px;
+  display: none;
+  flex-direction: column;
+  border-radius: 4px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+}
+
+.testimonials-list-item:first-child {
+  display: flex;
+}
+@media (min-width: 768px) {
+  .testimonials-list-item {
+    display: flex;
+    flex-basis: calc((100%-32px) / 2);
+    max-width: 343px;
+    margin: 0;
+  }
+}
+@media (max-width: 1279px) {
+  .testimonials-list-item:last-child {
+    display: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  .testimonials-list {
+    gap: 26px;
+    flex-basis: calc((100%-52px) / 3);
+  }
+  .testimonials-list-item {
+    display: flex;
+    flex-basis: calc((100%-52px) / 3);
+  }
+}
+@media (min-width: 1440px) {
+  .testimonials-list-item {
+    max-width: 360px;
+  }
+}

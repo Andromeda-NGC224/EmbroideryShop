@@ -31,7 +31,6 @@ window.addEventListener('scroll', function () {
     let getScrollPosition = window.scrollY;
 
     if (getScrollPosition > 1) {
-        console.log(addHeaderScroll);
         addHeaderScroll();
     } else {
         removeHeaderScroll();

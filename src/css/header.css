@@ -154,16 +154,19 @@ button {
 
 .header {
   padding-top: 20px;
+  padding-bottom: 30px;
   position: sticky;
   top: 0;
   left: 0;
   z-index: 99;
   background-color: #1c2225;
+  transition: padding-bottom 250ms linear;
 }
 
 @media screen and (min-width: 768px) {
   .header {
-    padding-top: 24px;
+    padding-top: 20px;
+    padding-bottom: 80px;
   }
 }
 
@@ -174,9 +177,10 @@ button {
 }
 
 .header.scrolled {
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid rgba(24, 23, 23, 0.8);
+
 }
 
 .header .container {

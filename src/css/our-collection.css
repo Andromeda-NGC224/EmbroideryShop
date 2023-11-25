@@ -1,0 +1,124 @@
+/* ==============our-collection============== */
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .our-collection {
+    padding-top: 80px;
+  }
+
+  .our-collection-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+  }
+
+  .our-collection-list {
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 0;
+    grid-column-gap: 24px;
+    row-gap: 16px;
+  }
+
+  .collection-images {
+    width: 335px;
+    height: 430px;
+    margin-bottom: 18px;
+  }
+
+  .our-collection-title-next {
+    color: var(--white, #fcf9f9);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px; /* 100% */
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .our-collection-text {
+    color: rgba(252, 249, 249, 0.4);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 100% */
+    letter-spacing: 0.7px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .our-collection-title {
+    font-size: 44px;
+  }
+
+  .container {
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .our-collection {
+    padding-top: 100px;
+    padding-bottom: 25px;
+  }
+
+  .our-collection-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-inline-start: 0;
+    grid-column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .collection-images {
+    width: 342px;
+    height: 430px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .our-collection {
+    padding-top: 150px;
+    padding-bottom: 75px;
+  }
+
+  .our-collection-list {
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 40px;
+  }
+
+  .collection-images {
+    width: 346px;
+    height: 430px;
+  }
+}

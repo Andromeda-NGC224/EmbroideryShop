@@ -1,0 +1,78 @@
+/* ====== прилипалка ========= */
+main {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.footer {
+	border-top: 1px solid rgba(252, 249, 249, 0.10);
+
+}
+
+
+/* ======== MENU =============== */
+.footer-menu {
+	display: block;
+	padding-top: 40px;
+}
+
+.footer-list {
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-rows: 1fr 1fr;
+	row-gap: 40px;
+}
+
+@media screen and (min-width: 768px) {
+	.footer-list {
+		grid-template-rows: 0;
+	}
+}
+
+/* ======= SLOGAN ============ */
+.slogan-content {
+	font-size: 44px;
+	line-height: 1.227;
+	letter-spacing: -0.03em;
+	width: 335px;
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+
+.slogan-span {
+	color: var(--white, #ECD979);
+}
+
+@media screen and (min-width: 768px) {
+	.slogan-content {
+		width: 521px;
+		font-size: 54px;
+		line-height: 1.185;
+		letter-spacing: -0.03em;
+		padding-top: 80px;
+		padding-bottom: 40px;
+	}
+
+	.slogan-span {
+		font-size: 54px;
+		line-height: 1.185;
+		letter-spacing: -0.03em;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.slogan-content {
+		width: 754px;
+		font-size: 64px;
+		line-height: 1.156;
+		padding-top: 117px;
+	}
+
+	.slogan-span {
+		font-size: 64px;
+		line-height: 1.156;
+
+	}
+}

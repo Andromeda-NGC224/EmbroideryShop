@@ -22,7 +22,7 @@ main {
 	display: grid;
 	grid-auto-flow: column;
 	grid-template-rows: 1fr 1fr;
-	row-gap: 40px;
+	row-gap: 25px;
 }
 
 @media screen and (min-width: 768px) {

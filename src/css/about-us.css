@@ -1,5 +1,4 @@
 
-
 .about-text {
     color: rgba(252, 249, 249, 0.4);
     font-family: Manrope;
@@ -8,8 +7,6 @@
     letter-spacing: 0.04em;
     margin-bottom: 20px;
     margin-right: 50px;
-  
-  
   }
   .about-text-next {
       color: rgba(252, 249, 249, 0.4);
@@ -173,7 +170,7 @@
           flex-direction: column;
           align-items: center;
           padding-bottom: 62px;
-         
+          padding-top: 40px;
       }
   
   
@@ -203,6 +200,7 @@
   @media screen and (min-width: 768px) {
       .about-container {
           padding-bottom: 50px;
+          padding-top: 50px;
       }
   
   
@@ -242,8 +240,8 @@
           align-items: center;
           width: 1080px;
           padding-bottom: 75px;
+          padding-top: 75px;
       }
-  
   
       .about-image {
           margin: 0;
@@ -254,9 +252,6 @@
       .about-text-next {
           display: flex;
              }
-         
-  
-  
   }
   
   

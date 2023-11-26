@@ -1,0 +1,43 @@
+.container {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: o auto;
+}
+body {
+  font-family: 'Manrope', sans-serif;
+  color: #fcf9f9;
+  background-color: #2e2e2e;
+}
+@media screen and (max-width: 767px) {
+  .your-order-picture {
+    display: none;
+  }
+  .your-order-images {
+    margin-bottom: 80px;
+  }
+  .your-order {
+    color: #ecd979;
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 137.5; /* 137.5% */
+    letter-spacing: -0.03em;
+  }
+  .your-order-span {
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.37;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+  }
+  .your-order-input {
+    width: 100%;
+    height: 47px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+  }
+}

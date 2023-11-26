@@ -137,16 +137,16 @@ button {
 
 .mobile-menu-image {
   width: 100%;
-  height: 302px;
+  height: 251px;
   background: url(../img/header/background-mobmenu.png);
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: top;
   background-size: cover;
 }
 
 @media screen and (min-width: 768px) {
   .mobile-menu-image {
-    height: 484px;
+    height: 359px;
   }
 }
 
@@ -157,6 +157,7 @@ button {
 }
 
 .header {
+  width: 100%;
   padding-top: 20px;
   position: sticky;
   top: 0;
@@ -166,31 +167,24 @@ button {
   transition: padding-bottom 250ms linear;
 }
 
-@media screen and (min-width: 768px) {
-  .header {
-    padding-top: 20px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .header {
-    padding-top: 20px;
-  }
-}
-
 .header.scrolled {
   padding-bottom: 10px;
   border-bottom: 1px solid rgba(24, 23, 23, 0.8);
 }
 
 .header .container {
-  min-width: 375px;
   width: 100%;
   height: 52px;
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (min-width: 375) {
+  .header .container {
+    min-width: 375px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -261,8 +255,13 @@ button {
   color: #ecd979;
 }
 
+.header-contacts {
+  display: flex;
+}
+
 .header-address {
   display: none;
+  margin-right: 20px;
 }
 
 @media screen and (min-width: 1280px) {

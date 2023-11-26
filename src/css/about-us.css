@@ -29,7 +29,62 @@
     display: block;
 }
 
+/* Read More */
+details {
+    position: relative;
+}
 
+details summary {
+    display: block;
+    cursor: pointer;
+    color: rgb(194, 191, 191);
+}
+
+details summary:focus {
+    outline: none;
+}
+
+details[open] {
+    display: block;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    animation: open 400ms linear;
+}
+
+details[open] summary {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+details[open] #open {
+    display: none;
+}
+
+details #close {
+    display: none;
+}
+
+details[open] #close {
+    display: block;
+}
+
+::-webkit-details-marker {
+    display: none;
+}
+
+@keyframes open {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* /Read More */
 
 
 @media screen and (max-width: 768px) {

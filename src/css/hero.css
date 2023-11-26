@@ -1,3 +1,4 @@
+/* Mobile */
 
 .container{
     padding-left: 20px;
@@ -5,7 +6,6 @@
     display: flex;
     flex-wrap: nowrap;
 }
-
 
 .images{
     display: none;
@@ -278,7 +278,7 @@
 
 /* Desktop 1440px */
 
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
     .container{
         width: 1440px;
     }
@@ -374,4 +374,4 @@
     line-height: normal;
     letter-spacing: -0.04em;
     max-width: 115px;
-}
+}*/

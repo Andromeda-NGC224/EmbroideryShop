@@ -1,4 +1,9 @@
 
+.about-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .about-text {
   color: rgba(252, 249, 249, 0.4);
   font-family: Manrope;
@@ -104,6 +109,8 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 @media screen and (min-width: 768px) {
     .about-section {
         background-color: #1C2225;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
 }
@@ -116,9 +123,10 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
     .about-section {
-        background-color: #1C2225;
+        padding-top: 75px;
+        padding-bottom: 75px;
     }
 }
 

@@ -8,6 +8,12 @@ body {
   color: #fcf9f9;
   background-color: #2e2e2e;
 }
+.your-order-images {
+  display: block;
+}
+.your-order-picture {
+  display: block;
+}
 @media screen and (max-width: 767px) {
   .your-order-picture {
     display: none;
@@ -21,8 +27,10 @@ body {
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
-    line-height: 137.5; /* 137.5% */
+    line-height: 137.5%; /* 137.5% */
     letter-spacing: -0.03em;
+    margin-bottom: 40px;
+    width: 335px;
   }
   .your-order-span {
     color: #fcf9f9;
@@ -32,12 +40,301 @@ body {
     font-weight: 500;
     line-height: 1.37;
     letter-spacing: -0.03em;
-    margin-bottom: 40px;
   }
   .your-order-input {
     width: 100%;
     height: 47px;
+    display: flex;
+    width: 335px;
+    padding: 14px 16px;
+    align-items: flex-start;
+    gap: 8px;
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.1);
+    margin-bottom: 20px;
+  }
+  .your-order-textarea {
+    display: flex;
+    padding: 14px 16px;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    background-color: #2e2e2e;
+    margin-bottom: 40px;
+  }
+  .your-order-input::placeholder {
+    color: rgba(252, 249, 249, 0.5);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
+  }
+  .your-order-btn {
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    display: flex;
+    height: 49px;
+    padding: 14px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #2e2e2e;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .your-order-container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 50px;
+    padding-bottom: 79px;
+  }
+
+  .your-order-picture {
+    max-width: 638px;
+    max-height: 521px;
+    margin-left: auto;
+    margin-bottom: 78px;
+  }
+  .your-order {
+    color: #ecd979;
+    font-family: Manrope;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 131.81%; /* 131.818% */
+    letter-spacing: -0.03em;
+    max-width: 542px;
+    margin-bottom: 40px;
+  }
+  .your-order-span {
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 131.81%;
+    letter-spacing: -0.03em;
+  }
+  .your-order-images {
+    margin-bottom: 100px;
+  }
+  .your-order-input {
+    width: 508px;
+    display: flex;
+    padding: 14px 16px;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    margin-bottom: 20px;
+  }
+  .your-order-input::placeholder {
+    color: rgba(252, 249, 249, 0.5);
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
+  }
+  .your-order-textarea {
+    width: 508px;
+    background-color: #2e2e2e;
+    display: flex;
+    padding: 14px 16px;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    margin-bottom: 40px;
+  }
+  .your-order-btn {
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    display: flex;
+    height: 49px;
+    padding: 14px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #2e2e2e;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    margin-bottom: 100px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .your-order-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .your-order-picture {
+    max-height: 521px;
+    margin-right: 50px;
+  }
+  .your-order-images {
+    margin-bottom: 150px;
+  }
+  .your-order {
+    color: #ecd979;
+    font-family: Manrope;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 131.8%; /* 131.818% */
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+    max-width: 542px;
+  }
+  .your-order-span {
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 131.8%;
+    letter-spacing: -0.03em;
+  }
+  .your-order-input {
+    width: 508px;
+    display: flex;
+    padding: 14px 16px;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    margin-bottom: 20px;
+  }
+  .your-order-textarea {
+    width: 508px;
+    background-color: #2e2e2e;
+    display: flex;
+    padding: 14px 16px;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    margin-bottom: 54px;
+  }
+  .your-order-input::placeholder {
+    color: rgba(252, 249, 249, 0.5);
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
+    cursor: pointer;
+  }
+  .your-order-input:placeholder-shown {
+    color: rgba(252, 249, 249, 0.5);
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .your-order-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .your-order-picture {
+    max-height: 521px;
+    margin-right: 50px;
+  }
+  .your-order-images {
+    margin-bottom: 150px;
+  }
+  .your-order {
+    color: #ecd979;
+    font-family: Manrope;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 131.8%; /* 131.818% */
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+    max-width: 542px;
+  }
+  .your-order-span {
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 131.8%;
+    letter-spacing: -0.03em;
+  }
+  .your-order-input {
+    width: 508px;
+    display: flex;
+    padding: 14px 16px;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    margin-bottom: 20px;
+  }
+  .your-order-textarea {
+    width: 508px;
+    background-color: #2e2e2e;
+    display: flex;
+    padding: 14px 16px;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    margin-bottom: 54px;
+  }
+  .your-order-input::placeholder {
+    color: rgba(252, 249, 249, 0.5);
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
+    cursor: pointer;
+  }
+  .your-order-input:placeholder-shown {
+    color: rgba(252, 249, 249, 0.5);
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
   }
 }

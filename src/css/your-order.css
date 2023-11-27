@@ -52,6 +52,8 @@ body {
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.1);
     margin-bottom: 20px;
+    background-color: #2e2e2e;
+    color: #fcf9f9;
   }
   .your-order-textarea {
     display: flex;
@@ -93,6 +95,14 @@ body {
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.1);
     margin: 0 auto;
+  }
+  .your-order-svg {
+    fill: var(--yellow, #ecd979);
+  }
+  .your-order-btn:hover,
+  .your-order-btn:focus {
+    border-radius: 15px;
+    border: 1px solid var(--yellow, #ecd979);
   }
 }
 @media screen and (min-width: 768px) {
@@ -142,6 +152,8 @@ body {
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.1);
     margin-bottom: 20px;
+    background-color: #2e2e2e;
+    color: #fcf9f9;
   }
   .your-order-input::placeholder {
     color: rgba(252, 249, 249, 0.5);
@@ -184,6 +196,14 @@ body {
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.1);
     margin-bottom: 100px;
+  }
+  .your-order-svg {
+    fill: var(--yellow, #ecd979);
+  }
+  .your-order-btn:hover,
+  .your-order-btn:focus {
+    border-radius: 15px;
+    border: 1px solid var(--yellow, #ecd979);
   }
 }
 @media screen and (min-width: 1280px) {
@@ -228,6 +248,8 @@ body {
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.1);
     margin-bottom: 20px;
+    background-color: #2e2e2e;
+    color: #fcf9f9;
   }
   .your-order-textarea {
     width: 508px;
@@ -241,6 +263,34 @@ body {
     border-radius: 8px;
     border: 1px solid rgba(252, 249, 249, 0.1);
     margin-bottom: 54px;
+  }
+  .your-order-btn {
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    display: flex;
+    height: 49px;
+    padding: 14px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #2e2e2e;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    margin: 0 auto;
+  }
+  .your-order-svg {
+    fill: var(--yellow, #ecd979);
+  }
+  .your-order-btn:hover,
+  .your-order-btn:focus {
+    border-radius: 15px;
+    border: 1px solid var(--yellow, #ecd979);
   }
   .your-order-input::placeholder {
     color: rgba(252, 249, 249, 0.5);
@@ -304,6 +354,8 @@ body {
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.1);
     margin-bottom: 20px;
+    background-color: #2e2e2e;
+    color: #fcf9f9;
   }
   .your-order-textarea {
     width: 508px;
@@ -317,6 +369,34 @@ body {
     border-radius: 8px;
     border: 1px solid rgba(252, 249, 249, 0.1);
     margin-bottom: 54px;
+  }
+  .your-order-btn {
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    display: flex;
+    height: 49px;
+    padding: 14px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #2e2e2e;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    margin: 0 auto;
+  }
+  .your-order-svg {
+    fill: var(--yellow, #ecd979);
+  }
+  .your-order-btn:hover,
+  .your-order-btn:focus {
+    border-radius: 15px;
+    border: 1px solid var(--yellow, #ecd979);
   }
   .your-order-input::placeholder {
     color: rgba(252, 249, 249, 0.5);

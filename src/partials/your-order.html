@@ -3,12 +3,23 @@
     <img
       class="your-order-images"
       src="./img/order/order-background-desktop-max.jpg"
+      srcset="
+      ./img/order/order-background-desktop-max@2x.jpg
+      ./img/order/order-background-desktop-min.jpg
+      ./img/order/order-background-desktop-min@2x.jpg
+      ./img/order/order-background-mobile.jpg
+      ./img/order/order-background-mobile@2x.jpg
+      ./img/order/order-background-tablet.jpg
+      ./img/order/order-background-tablet@2x.jpg"
       alt="a_girl_in_a_green_dress"
     />
     <div class="your-order-container">
       <img
         class="your-order-picture"
         src="./img/order/order-img-desktop.jpg"
+        srcset="./img/order/order-img-desktop@2x.jpg
+        ./img/order/order-img-tablet.jpg
+        ./img/order/order-img-tablet@2x.jpg"
         alt="dress_and_waistcoat"
       />
     
@@ -21,21 +32,22 @@
       </h2>
       <form class="your-order-form">
         <div class="your-order-input-container">
-          <inpit
+          <label class="your-order--label" for="">
+          <input
             type="name"
             class="your-order-input"
             name="username"
             placeholder="Enter_your_full_name" 
             autofocus
-          ></inpit>
+          ></input></label>
         </div>
-        <div class="your-order-input-container">
-          <inpit
+        <div class="your-order-input-container"><label class="your-order--label" for="">
+          <input
             type="email"
             class="your-order-input"
             name="useremail"
             placeholder="Enter your email"
-          ></inpit>
+          ></input></label>
         </div>
         <div>
           <label class="" for="your-order--label">

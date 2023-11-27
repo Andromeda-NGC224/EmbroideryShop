@@ -1,12 +1,11 @@
 .container {
-  padding-left: 100px;
-  padding-right: 100px;
-  margin: o auto;
+  margin: 0 auto;
 }
+
 body {
   font-family: 'Manrope', sans-serif;
   color: #fcf9f9;
-  background-color: #2e2e2e;
+  background-color: #1C2225;
 }
 .your-order-images {
   display: block;

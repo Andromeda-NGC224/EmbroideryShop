@@ -37,10 +37,10 @@ main {
 
 @media screen and (min-width: 1280px) {
 	.footer-ornament {
-		background-size: 594px 527px;
-		width: 496px;
-		background-position: left 80%;
-		left: 56.5%;
+		background-size: 595px 528px;
+		background-position: left 32%;
+		width: 336px;
+		left: 75%;
 	}
 }
 

@@ -73,9 +73,6 @@
     }
 }
 
-.hero-section{
-    position: relative;
-}
 
 .container{
     padding-left: 32px;
@@ -138,9 +135,6 @@
     width: 139px;
     height: 197px;
     flex-shrink: 0;
-    position: absolute;
-    bottom: 0;
-    right: 0;
     background-image: url(../img/hero/small.jpg);
     background-repeat: no-repeat;
     background-position: top;
@@ -252,9 +246,6 @@
     width: 139px;
     height: 197px;
     flex-shrink: 0;
-    position: absolute;
-    bottom: 0;
-    right: 0;
     background-image: url(../img/hero/small.jpg);
     background-repeat: no-repeat;
     background-position: top;

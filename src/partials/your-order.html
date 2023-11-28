@@ -1,0 +1,77 @@
+<section class="your-order-section">
+  <div class="container">
+    <img
+      class="your-order-images"
+      src="./img/order/order-background-mobile.jpg"
+      sizes="(min-width: 1280px) 1280px, (min-width: 768px) 768px, (max-width: 767px) 375px"
+      srcset="
+      ./img/order/order-background-desktop-min.jpg 1280w,
+      ./img/order/order-background-desktop-min@2x.jpg 2560w,
+      ./img/order/order-background-mobile.jpg 375w,
+      ./img/order/order-background-mobile@2x.jpg 750w,
+      ./img/order/order-background-tablet.jpg 768w,
+      ./img/order/order-background-tablet@2x.jpg 1536w" 
+      alt="a_girl_in_a_green_dress"
+    />
+    <div class="your-order-container">
+      <img
+        class="your-order-picture"
+        src="./img/order/order-img-tablet.jpg"
+        sizes="(min-width: 768px) and (max-width: 1279px) 523px, (min-width: 1280px) 524px"
+        srcset="
+        ./img/order/order-img-tablet.jpg 523w,
+        ./img/order/order-img-tablet@2x.jpg 1046w,
+        ./img/order/order-img-desktop.jpg 524w,
+        ./img/order/order-img-desktop@2x.jpg 1048w"
+        alt="dress_and_waistcoat"
+      />
+    
+    <div class="your-order-container_next">
+      <h2 class="your-order">
+        Your order
+        <span class="your-order-span"
+          >is our priority: Personalized approach and quality of service</span
+        >
+      </h2>
+      <form class="your-order-form">
+        <div class="your-order-input-container">
+          <label class="your-order--label" for="">
+          <input
+            type="name"
+            class="your-order-input"
+            name="username"
+            placeholder="Enter your full name" 
+            autofocus
+          ></input></label>
+        </div>
+        <div class="your-order-input-container"><label class="your-order--label" for="">
+          <input
+            type="email"
+            class="your-order-input"
+            name="useremail"
+            placeholder="Enter your email"
+          ></input></label>
+        </div>
+        <div>
+          <label class="" for="your-order--label">
+            <textarea
+              type="pattern"
+              class="your-order-textarea"
+              name="user-coment"
+              placeholder="Comments"
+              id=""
+              rows="10"
+              cols="35"
+            ></textarea>
+          </label>
+          <button class="your-order-btn" href="index.html" type="pattern">
+            Send<svg class="your-order-icon" width="36" height="20">
+              <use href="./img/sprite.svg#icon-arrow"></use>
+            </svg>
+          </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>

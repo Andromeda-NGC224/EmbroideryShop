@@ -7,6 +7,14 @@
     margin-right: auto;
   }
 
+  .collection-container {
+    background-image: url(../img/collection/our-collection-background.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 199px 177px;
+    background-position: -128px 328px;
+  }
+
   .our-collection {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -32,6 +40,7 @@
     width: 335px;
     height: 430px;
     margin-bottom: 18px;
+    border-radius: 4px;
   }
 
   .our-collection-title-next {
@@ -58,13 +67,20 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .our-collection-title {
     font-size: 44px;
   }
 
   .container {
     width: 768px;
+  }
+
+  .collection-container {
+    background-image: url(../img/collection/our-collection-background@2x.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 338px 300px;
+    background-position: -224px 208px;
   }
 
   .our-collection {
@@ -93,6 +109,14 @@
   .container {
     width: 320px;
 
+  }
+
+  .collection-container {
+    background-image: url(../img/collection/our-collection-background@2x.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 338px 300px;
+    background-position: -170px 206px;
   }
 
   .our-collection {

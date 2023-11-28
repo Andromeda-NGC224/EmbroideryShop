@@ -106,9 +106,14 @@
   .your-order-section {
     padding-top: 50px;
     padding-bottom: 50px;
+    background-image: url(../img/order/your-order-background.png);
+    background-repeat: no-repeat;
+    background-position: -209px 1430px;
+    background-size: 545px 484px;
   }
 
   .your-order-container {
+    background-origin: border-box;
     display: flex;
     flex-direction: column-reverse;
   }
@@ -208,10 +213,11 @@
   .your-order-section {
       padding-top: 75px;
       padding-bottom: 75px;
+      background-position: -220px 990px;
     }
 
+
   .your-order-container {
-    display: flex;
     flex-direction: row;
   }
   .your-order-picture {

@@ -21,7 +21,6 @@
 
   .our-collection-list {
     list-style-type: none;
-
     display: flex;
     flex-direction: column;
     padding-inline-start: 0;
@@ -110,7 +109,6 @@
 
   .our-collection-list {
     list-style-type: none;
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

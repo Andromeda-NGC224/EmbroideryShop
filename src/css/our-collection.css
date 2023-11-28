@@ -9,8 +9,17 @@
     padding-right: 20px;
   }
 
+  .collection-container {
+    background-image: url(../img/collection/our-collection-background.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 199px 177px;
+    background-position: -128px 328px;
+  }
+
   .our-collection {
-    padding-top: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .our-collection-title {
@@ -21,6 +30,7 @@
 
   .our-collection-list {
     list-style-type: none;
+
     display: flex;
     flex-direction: column;
     padding-inline-start: 0;
@@ -32,6 +42,7 @@
     width: 335px;
     height: 430px;
     margin-bottom: 18px;
+    border-radius: 4px;
   }
 
   .our-collection-title-next {
@@ -58,7 +69,6 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .our-collection-title {
     font-size: 44px;
   }
@@ -71,9 +81,17 @@
     padding-right: 32px;
   }
 
+  .collection-container {
+    background-image: url(../img/collection/our-collection-background@2x.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 338px 300px;
+    background-position: -224px 208px;
+  }
+
   .our-collection {
-    padding-top: 100px;
-    padding-bottom: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .our-collection-list {
@@ -102,13 +120,22 @@
     padding-right: 100px;
   }
 
+  .collection-container {
+    background-image: url(../img/collection/our-collection-background@2x.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 338px 300px;
+    background-position: -170px 206px;
+  }
+
   .our-collection {
-    padding-top: 150px;
+    padding-top: 75px;
     padding-bottom: 75px;
   }
 
   .our-collection-list {
     list-style-type: none;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

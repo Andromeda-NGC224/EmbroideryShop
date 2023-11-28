@@ -1,4 +1,9 @@
 
+.your-order-section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .your-order-images {
   display: block;
 }
@@ -97,18 +102,22 @@
   }
 }
 @media screen and (min-width: 768px) {
+
+  .your-order-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .your-order-container {
     display: flex;
     flex-direction: column-reverse;
-    padding-top: 50px;
-    padding-bottom: 79px;
   }
 
   .your-order-picture {
-    max-width: 638px;
-    max-height: 521px;
+    width: 638px;
+    height: 521px;
     margin-left: auto;
-    margin-bottom: 78px;
+    margin-bottom: 79px;
   }
   .your-order {
     color: #ecd979;
@@ -195,6 +204,12 @@
   }
 }
 @media screen and (min-width: 1280px) {
+
+  .your-order-section {
+      padding-top: 75px;
+      padding-bottom: 75px;
+    }
+
   .your-order-container {
     display: flex;
     flex-direction: row;
@@ -202,6 +217,7 @@
   .your-order-picture {
     max-height: 521px;
     margin-right: 50px;
+    margin-bottom: 0;
   }
   .your-order-images {
     margin-bottom: 150px;

@@ -106,14 +106,18 @@
   .your-order-section {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-image: url(../img/order/your-order-background.png);
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size: 545px 484px;
   }
 
+  .main-order-container {
+    background-image: url(../img/order/your-order-background.png);
+      background-repeat: no-repeat;
+      background-position: left bottom;
+      background-size: 545px 484px;
+      background-origin: border-box;
+  }
+
+
   .your-order-container {
-    background-origin: border-box;
     display: flex;
     flex-direction: column-reverse;
   }
@@ -213,7 +217,6 @@
   .your-order-section {
       padding-top: 75px;
       padding-bottom: 75px;
-      background-position: -220px 990px;
     }
 
 

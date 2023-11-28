@@ -1,4 +1,5 @@
 
+
 .about-text {
     color: rgba(252, 249, 249, 0.4);
     font-family: Manrope;
@@ -17,9 +18,10 @@
       margin-right: 50px;
   }
 
-  
-  
-  
+
+ 
+ 
+ 
   .about-title {
     color: #fcf9f9;
     font-family: Manrope;
@@ -30,94 +32,93 @@
     color: #fcf9f9;
     margin-bottom: 40px;
   }
-  
-  
-  .about-container {
+ 
+ 
+  .about-section {
       background-image:url(../img/about/./about-us-background.png);
       background-repeat: no-repeat;
       background-position: right bottom;
-      background-size: 545px 454px;
       background-origin: border-box;
   }
-  
-  
+ 
+ 
   /* Read More */
   details {
       position: relative;
   }
-  
-  
+ 
+ 
   details summary {
       display: block;
       cursor: pointer;
       color: rgb(194, 191, 191);
   }
-  
-  
+ 
+ 
   details summary:focus {
       outline: none;
   }
-  
-  
+ 
+ 
   details[open] {
       display: block;
       padding-bottom: 25px;
       padding-top: 10px;
       animation: open 400ms linear;
   }
-  
-  
+ 
+ 
   details[open] summary {
       position: absolute;
       bottom: 0;
       left: 0;
   }
-  
-  
+ 
+ 
   details[open] #open {
       display: none;
   }
-  
-  
+ 
+ 
   details #close {
       display: none;
   }
-  
-  
+ 
+ 
   details[open] #close {
       display: block;
   }
-  
-  
+ 
+ 
   ::-webkit-details-marker {
       display: none;
   }
-  
-  
+ 
+ 
   @keyframes open {
       0% {
           opacity: 0;
           transform: translateY(-10px);
       }
-  
-  
+ 
+ 
       100% {
           opacity: 1;
           transform: translateY(0);
       }
   }
   /* /Read More */
-  
-  
-  
-  
+ 
+ 
+ 
+ 
   @media screen and (max-width: 768px) {
       .about-section {
           background-color: #1C2225;
       }
   }
-  
-  
+ 
+ 
   @media screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px),
   screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
@@ -125,15 +126,17 @@
           background-color: #1C2225;
       }
   }
-  
-  
+ 
+ 
   @media screen and (min-width: 768px) {
       .about-section {
           background-color: #1C2225;
       }
+ 
+ 
   }
-  
-  
+ 
+ 
   @media screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 768px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
@@ -141,15 +144,15 @@
           background-color: #1C2225;
       }
   }
-  
-  
+ 
+ 
   @media screen and (min-width: 1200px) {
       .about-section {
           background-color: #1C2225;
       }
   }
-  
-  
+ 
+ 
   @media screen and (min-resolution: 192dpi) and (min-width: 1200px),
   screen and (min-resolution: 2dppx) and (min-width: 1200px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 1200px) {
@@ -157,13 +160,13 @@
           background-color: #1C2225;
       }
   }
-  
-  
-  
-  
+ 
+ 
+ 
+ 
   /*========MOBILE STYLE==========*/
-  
-  
+ 
+ 
   @media screen and (max-width: 767px) {
       .about-container {
           display: flex;
@@ -172,8 +175,6 @@
           padding-bottom: 62px;
           padding-top: 40px;
       }
-  
-  
       .about-image {
           margin-top: 50px;
       }
@@ -181,44 +182,41 @@
    display: none;
       }
      
-      .about-container {
+      .about-section {
           background-image:url(../img/about/./about-us-background.png);
       background-repeat: no-repeat;
       background-position: right bottom;
-      background-origin: border-box;
       background-size: 459px 408px;
-      background-position: 105px 400px;
+      background-position: right bottom;
+      background-position: 100% 100%;
       }
-  
-  
-  
-  
+ 
   }
   /*===========TABLET STYLE============*/
-  
-  
+ 
+ 
   @media screen and (min-width: 768px) {
       .about-container {
           padding-bottom: 50px;
           padding-top: 50px;
       }
-  
-  
+ 
+ 
       .about-text-container {
           padding: 0;
       }
-  
-  
+ 
+ 
       .about-title {
           font-size: 44px;
       }
-  
-  
+ 
+ 
       .about-text {
           font-size: 16px;
       }
-  
-  
+ 
+ 
       .about-image {
           margin-top: 40px;
       }
@@ -226,13 +224,13 @@
           display: none;
              }
   }
-  
-  
-  
-  
+ 
+ 
+ 
+ 
   /*==========DECSTOP STYLE=============*/
-  
-  
+ 
+ 
   @media screen and (min-width: 1280px) {
       .about-container {
           display: flex;
@@ -242,7 +240,7 @@
           padding-bottom: 75px;
           padding-top: 75px;
       }
-  
+ 
       .about-image {
           margin: 0;
       }
@@ -252,11 +250,18 @@
       .about-text-next {
           display: flex;
              }
+        .about-section {
+            background-size: 545px 454px;
+        }
   }
-  
-  
-  
-  
-  
-  
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
 

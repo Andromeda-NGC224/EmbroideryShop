@@ -1,12 +1,4 @@
-.container {
-  margin: 0 auto;
-}
 
-body {
-  font-family: 'Manrope', sans-serif;
-  color: #fcf9f9;
-  background-color: #1C2225;
-}
 .your-order-images {
   display: block;
 }
@@ -51,7 +43,7 @@ body {
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.1);
     margin-bottom: 20px;
-    background-color: #2e2e2e;
+    background-color: transparent;
     color: #fcf9f9;
   }
   .your-order-textarea {
@@ -63,11 +55,11 @@ body {
     align-self: stretch;
     border-radius: 8px;
     border: 1px solid rgba(252, 249, 249, 0.1);
-    background-color: #2e2e2e;
+    background-color: transparent;
     margin-bottom: 40px;
   }
   .your-order-input::placeholder {
-    color: rgba(252, 249, 249, 0.5);
+    color: rgba(252, 249, 249, 0.50);
     font-family: Manrope;
     font-size: 14px;
     font-style: normal;
@@ -89,7 +81,7 @@ body {
     padding: 14px 36px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     background-color: #2e2e2e;
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.1);
@@ -155,12 +147,9 @@ body {
     color: #fcf9f9;
   }
   .your-order-input::placeholder {
-    color: rgba(252, 249, 249, 0.5);
-    font-family: Manrope;
+    color: rgba(252, 249, 249, 0.50);
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     letter-spacing: -0.02em;
   }
   .your-order-textarea {

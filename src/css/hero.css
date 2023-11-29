@@ -140,10 +140,27 @@
     right: 32px;
 }
 
-.star{
+.star {
+    transition: transform 1s ease-in-out;
+}
+
+.star:hover,
+.star:focus {
+    transform: rotate(180deg);
+}
+
+.star-svg{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    fill: #ECD979;
+    transition: fill 1s ease-in-out;
+}
+
+.star-svg:hover, 
+.star-svg:focus {
+    fill: #FCF9F9;
 }
 
 .title{
